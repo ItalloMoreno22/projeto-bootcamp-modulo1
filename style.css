@@ -1,0 +1,24 @@
+body{
+    background-color: #CCCCCC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    
+}
+
+.container{
+    width: 700px;
+    height:750px;
+    background-color: #210D25;
+   border-radius: 10px;
+   margin-left:25rem;
+   box-shadow: #531A5D;
+    
+    
+    
+}
+
+.title{
+    text-align: center;
+    color: #f3d044;
+    font-size: 30px;
+    font-weight: 500;
+}
