@@ -12,7 +12,7 @@ body{
     text-align: center;
     padding: 8px;
     padding-top: 4px;
-   background-color: #3a0842;
+    background: linear-gradient(180deg, rgba(33,13,37,1) 0%, rgba(67,22,75,1) 29%, rgba(99,31,111,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     border-radius: 15px;
@@ -26,7 +26,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     flex-direction: column;
-    background-color: #581C63;
+    background: linear-gradient(180deg, rgba(93,29,104,1) 0%, rgba(69,23,77,1) 29%, rgba(31,12,34,1) 100%);
     border-radius: 15px;
     
     }
@@ -55,7 +55,37 @@ body{
 .title2{
     text-align: center;
     padding: 20px;
-    font-size: 19px;
+    font-size: 25px;
     color: #E3EAD7;
    
 }
+
+
+input{
+    background-color: white;
+    font-size: 20px;
+    
+    height: 40px;
+    width: 500px;
+    margin-left: 74px;
+    
+    display:flex;
+    
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+
+    border-radius: 6px;
+}
+
+.um{
+    width: 900px;
+    display: flex;
+    padding: 20px;
+}
+
+.dois{
+    width: 900px;
+    display: flex;
+    padding: 20px;
+} 
