@@ -89,3 +89,37 @@ input{
     display: flex;
     padding: 20px;
 } 
+
+
+.flex-container2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.col1{
+
+}
+
+.col2{
+
+}
+
+.col3{
+
+
+}
+
+.button{
+    
+        background-color: #1d0c20;
+        border: none;
+        padding: 5px;
+        width: 90px;
+        height: 45px;
+        border-radius: 5px;
+        color: white;
+        margin-top: 20px;
+        cursor: pointer;
+    
+}
