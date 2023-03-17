@@ -1,14 +1,18 @@
 body{
     background-color: #CCCCCC;
-    font-family: Arial, Helvetica, sans-serif;
+   font-size:  Arial, Helvetica, sans-serif;
     
     height: 100%;
 }
 
 .container{
     margin: auto;
+    flex-direction: column;
+    
+    
     width: 750px;
-    height: 775px;
+    
+    
     text-align: center;
     padding: 8px;
     padding-top: 4px;
@@ -35,7 +39,7 @@ body{
     text-align: center;
     color: #f3d044;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     padding: 1rem;
 }
 
@@ -79,18 +83,18 @@ input{
 }
 
 .um{
-    width: 900px;
+    
     display: flex;
     padding: 20px;
 }
 
 .dois{
-    width: 900px;
+    
     display: flex;
     padding: 20px;
 } 
 
-.secondrow{
+.flex-container2{
     width: 90%;
     color: #E3EAD7;
     margin-left: 20px;
@@ -102,13 +106,14 @@ input{
     
 }
 
-.card-button{
+.cols{
     background-image: linear-gradient(#2638DB,#342989);
     border-radius: 0.5rem;
-    
+    margin-left: 20px;
 }
 
-.inside-cardButton{
+.subcol{
+    
     padding: 0.5rem;
     font-weight: 400;
     font-size: 24px;
@@ -131,3 +136,56 @@ button{
     cursor: pointer;
     
 }
+
+.fot{
+     color: #E3EAD7;
+    margin-top: 12px;
+    font-size: 12px;
+}
+
+.b{
+font-weight: bold;
+}
+
+@media screen and (max-width: 820px){
+
+   .container{
+     width: 95%;
+    
+    }
+
+    input{
+        border-radius: 0.25rem;
+        border: none;
+        margin:0.5rem;
+        width: 80%;
+        align-self: center;
+        height: 32px;
+        line-height: normal;
+        font-size: 1rem;
+        font-weight: 400;
+     
+    }
+
+  
+    
+
+    .flex-container2{
+    
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .subcol{
+         padding-top: 3rem;
+    
+    }
+    
+    .cols{
+        
+        min-width:80%;
+        margin: 1rem;
+    }
+}
+    
