@@ -90,36 +90,44 @@ input{
     padding: 20px;
 } 
 
-
-.flex-container2{
+.secondrow{
+    width: 90%;
+    color: #E3EAD7;
+    margin-left: 20px;
     display: flex;
-    justify-content: space-around;
-    margin-top: 35px;
-}
-
-.col1{
-
-}
-
-.col2{
-
-}
-
-.col3{
-
-
-}
-
-.button{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     
-        background-color: #1d0c20;
-        border: none;
-        padding: 5px;
-        width: 90px;
-        height: 45px;
-        border-radius: 5px;
-        color: white;
-        margin-top: 20px;
-        cursor: pointer;
+}
+
+.card-button{
+    background-image: linear-gradient(#2638DB,#342989);
+    border-radius: 0.5rem;
+    
+}
+
+.inside-cardButton{
+    padding: 0.5rem;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#3E60EF,#72CBFE);
+    margin: 10px;
+    text-align: center;
+}
+
+button{
+    background-color:#1D0C20 ;
+    color: #ffffff;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    width: 64%;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
     
 }
